@@ -31,11 +31,13 @@ body {
 }
 
 h1 {
+    font-family: 'M+2P';
     font-weight: 900;
     font-size: 20pt;
 }
 
 h2 {
+    font-family: 'M+2P';
     font-weight: 700;
     font-size: 16pt;
 }
