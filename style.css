@@ -17,6 +17,10 @@
     src: url('mplus-2p-black.ttf');
     font-weight: 900;
 }
+@font-face {
+    font-family: 'Anonymous Pro';
+    src: url('Anonymous\ Pro.ttf');
+}
 
 body {
     font-family: 'M+2P';
