@@ -2,30 +2,70 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>An HTML Page – Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Wow, a Website! – Typography</title>
     </head>
     <body>
-        <div class="title">« An HTML Page »</div>
-        <div class="nav">
-            <a class="nav-button" href="index.html">HOME</a>
-            <a class="nav-button" href="typography.html">TYPE</a>
-            <a class="nav-button" href="my-work.html">MY WORK</a>
-            <a class="nav-button" href="about.html">ABOUT</a>
+        <div class="container-sm mx-auto my-2">
+            <div class="row">
+                <div class="col">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="typography.html">Typography</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="my-work.html">My Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="jumbotron">
+                        <h1>Typography</h1>
+                        <p>Some things on the subject.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <h2>Spaces between sentences</h2>
+                    <p>
+                        Always put <b>one</b> space between sentences and punctuation. The <a href="https://style.mla.org/number-of-spaces-after-period/"><em>MLA Handbook</em></a>, <a href="https://www.chicagomanualofstyle.org/qanda/data/faq/topics/OneSpaceorTwo.html"><em>Chicago Manual of Style</em></a>, and the <a href="https://apastyle.apa.org/style-grammar-guidelines/punctuation/space-after-period">APA</a> all recommend one space by default.
+                    </p>
+                </div>
+                <div class="col-md">
+                    <h2>Emphasis</h2>
+                    <p>
+                        Here is some <em>emphasized</em> (italic, or rather, <em>oblique</em>) text, and some <b>bolded</b> text. Remember to never use them together&#x2014;too much emphasis means nothing is emphasized.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <h2>Horizontal lines and dashes</h2>
+                    <p>That line, the “&#x2014;” (an <em>em dash</em>), was not made up of two or three hyphens, but an actual character which is encoded in Unicode as <code class="unicode">U+2014 EM DASH</code>.</p>
+                </div>
+                <div class="col-md">
+                    <h2>This font?</h2>
+                    <p>
+                        It’s <b>M+2P</b> from the M+ Fonts, which can be found <a href="https://mplus-fonts.osdn.jp">here</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md bg-light mt-3 pt-3 text-center">
+                    <p>Hosted on <a href="https://github.com/non-breaking-space/Portfolio">GitHub</a> under the <a href="https://github.com/non-breaking-space/Portfolio/blob/master/LICENSE">MIT License</a>.</p>
+                </div>
+            </div>
         </div>
-
-        <h1>Some Stuff About Typography</h1>
-        <h2>Spaces between sentences</h2>
-        <p>
-            Always put <b>one</b> space between sentences and punctuation. The <a href="https://style.mla.org/number-of-spaces-after-period/"><em>MLA Handbook</em></a>, <a href="https://www.chicagomanualofstyle.org/qanda/data/faq/topics/OneSpaceorTwo.html"><em>Chicago Manual of Style</em></a>, and the <a href="https://apastyle.apa.org/style-grammar-guidelines/punctuation/space-after-period">APA</a> all recommend one space by default.
-        </p>
-
-        <h2>Emphasis</h2>
-        <p>
-            Here is some <em>emphasized</em> (italic, or rather, <em>oblique</em>) text, and some <b>bolded</b> text. Remember to never use them together&#x2014;too much emphasis means nothing is emphasized.
-        </p>
-
-        <h2>Horizontal lines and dashes</h2>
-        That line, the “&#x2014;” (an <em>em dash</em>), was not made up of two or three hyphens, but an actual character which is encoded in Unicode as <code class="unicode">U+2014 EM DASH</code>.
     </body>
 </html>

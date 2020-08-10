@@ -1,103 +1,39 @@
 @font-face {
-    font-family: 'M+2P';
-    src: url('mplus-2p-regular.ttf');
+    font-family: "M+2C";
+    src: url("mplus-2c-regular.ttf");
 }
 @font-face {
-    font-family: 'M+2P';
-    src: url('mplus-2p-bold.ttf');
+    font-family: "M+2C";
+    src: url("mplus-2c-bold.ttf");
     font-weight: 700;
 }
 @font-face {
-    font-family: 'M+2P';
-    src: url('mplus-2p-light.ttf');
+    font-family: "M+2C";
+    src: url("mplus-2c-light.ttf");
     font-weight: 300;
 }
 @font-face {
-    font-family: 'M+2P';
-    src: url('mplus-2p-black.ttf');
+    font-family: "M+2C";
+    src: url("mplus-2c-black.ttf");
     font-weight: 900;
 }
 @font-face {
-    font-family: 'Anonymous Pro';
-    src: url('Anonymous\ Pro.ttf');
+    font-family: "M+2M";
+    src: url("mplus-2m-regular.ttf");
 }
 
 body {
-    font-family: 'M+2P';
-    max-width: 600px;
-    margin: auto;
-    line-height: 1.3;
-    font-size: 12pt;
-    hyphens: auto;
-    word-wrap: break-word;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-family: "M+2C";
 }
 
 h1 {
     font-weight: 900;
-    font-size: 20pt;
-}
-
-h2 {
-    font-weight: 700;
-    font-size: 16pt;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover, a:focus, a:active {
-    text-decoration: underline;
 }
 
 code {
-    font-family: 'Anonymous Pro';
-}
-
-img {
-    width: 100%;
-    height: auto;
+    font-family: "M+2M";
 }
 
 .script {
-    outline-width: 2px;
-    font-family: 'Courier New';
-    font-size: 14pt;
-    outline-style: solid;
-    padding: 4px;
-}
-
-.unicode {
-    font-family: 'Anonymous Pro';
-}
-
-.title {
-    margin-top: 20px;
-    margin-bottom: 25px;
-    font-weight: 200;
-    font-size: 36pt;
-}
-
-.nav {
-    position: sticky;
-    top: 4px;
-    font-weight: 900;
-    font-size: 16pt;
-    opacity: 1;
-}
-
-.nav-button {
-    display: inline-block;
-    border-style: solid;
-    border-width: 4px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    background: white;
-    color: black;
-    text-decoration: none;
-    width: 120px;
-    text-align: center;
-    margin-top: 4px;
+    font-family: "Courier New";
 }
