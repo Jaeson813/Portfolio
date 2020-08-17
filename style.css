@@ -1,29 +1,5 @@
-@font-face {
-    font-family: "M+2C";
-    src: url("mplus-2c-regular.ttf");
-}
-@font-face {
-    font-family: "M+2C";
-    src: url("mplus-2c-bold.ttf");
-    font-weight: 700;
-}
-@font-face {
-    font-family: "M+2C";
-    src: url("mplus-2c-light.ttf");
-    font-weight: 300;
-}
-@font-face {
-    font-family: "M+2C";
-    src: url("mplus-2c-black.ttf");
-    font-weight: 900;
-}
-@font-face {
-    font-family: "M+2M";
-    src: url("mplus-2m-regular.ttf");
-}
-
 body {
-    font-family: "M+2C";
+    font-family: "Jost";
 }
 
 h1 {

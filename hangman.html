@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Wow, a Website! – Hangman</title>
+    </head>
+    <body>
+        <div class="container-sm mx-auto">
+            <div class="row my-2">
+                <div class="col">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="typography.html">Typography</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="my-work.html">My Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="jumbotron">
+                        <h1>Hangman</h1>
+                        <p>Press a key to guess a letter. Too bad if you’re on mobile.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="card">
+                        <div class="card-body">
+                            <p>Guess this word!</p>
+                            <h2 id="display">If you’re seeing this, the JavaScript didn’t load.</h2>
+                            <p id="incorrect-guesses"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md bg-light mt-2 pt-3 text-center">
+                    <p>Hosted on <a href="https://github.com/non-breaking-space/Portfolio">GitHub</a> under the <a href="https://github.com/non-breaking-space/Portfolio/blob/master/LICENSE">MIT License</a>.</p>
+                </div>
+            </div>
+        </div>
+        <script src="logic.js"></script>
+    </body>
+</html>
