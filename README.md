@@ -1,3 +1,5 @@
 # Portfolio
 Some stuff.
-https://non-breaking-space.github.io/Portfolio/
+https://jaeson813.github.io/Portfolio/
+
+The fonts are under the OFL License.
